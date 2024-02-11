@@ -29,7 +29,7 @@ Bot's token is required to be put in the settings.ini [bot] section.
 ### DSN of a SQL server
 Data source name string needs to be put in the[postgres] section of the settings.ini file.
 ### Create initial tables
-Before using the main script a database setup scrips should be run:
+Before using the main script a database setup scripts should be run:
 ```
 $ python3 create_db.py
 ```
