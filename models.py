@@ -6,7 +6,7 @@ Base = declarative_base()
 class User(Base):
     __tablename__ = 'user'
     id = sq.Column(sq.Integer, primary_key=True)
-    cid = sq.Column(sq.Integer, unique=True)
+    cid = sq.Column(sq.BigInteger, unique=True)
 
 class Word(Base):
     __tablename__ = 'word'
